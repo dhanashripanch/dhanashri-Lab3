@@ -67,7 +67,7 @@ input[type="range"]::-moz-range-thumb {
 
 .error-message {
   color: red;
-  font-size: xx-small; /* Adjust font size */
+  font-size: x-small; /* Adjust font size */
   text-align: right;
 }
 
