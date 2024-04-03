@@ -9,6 +9,12 @@ function calculateTip() {
 
   const billTotalValue = billTotalInput.value.trim();
 
+   // Check if the input is empty
+   if (billTotalValue === '') {
+    clearCalculation();
+    return;
+  }
+
   const MAX_BILL_TOTAL = 1e9; // Set maximum bill total to 1 billion
 
   // Check if the input is a valid number
