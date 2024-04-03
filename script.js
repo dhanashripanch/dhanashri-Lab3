@@ -12,7 +12,7 @@ function calculateTip() {
   const MAX_BILL_TOTAL = 1e9; // Set maximum bill total to 1 billion
 
   // Check if the input is a valid number
-  if (!isValidNumber(billTotalValue)) {
+  if (!isValidNumber(billTotalValue) && billTotalValue !== '') {
     errorMessage.textContent = 'Please enter a valid number';
     clearCalculation();
     billTotalInput.classList.add('error');
