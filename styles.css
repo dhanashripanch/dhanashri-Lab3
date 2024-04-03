@@ -24,7 +24,7 @@ h1 {
 }
 
 .form-group {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   display: flex; /* Use flexbox to maintain inline formatting */
   align-items: center; /* Vertically center items */
 }
