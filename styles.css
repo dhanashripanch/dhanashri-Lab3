@@ -24,7 +24,7 @@ h1 {
 }
 
 .form-group {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   display: flex; /* Use flexbox to maintain inline formatting */
   align-items: center; /* Vertically center items */
 }
@@ -67,7 +67,7 @@ input[type="range"]::-moz-range-thumb {
 
 .error-message {
   color: red;
-  font-size: x-small; /* Adjust font size */
+  font-size: xx-small; /* Adjust font size */
   text-align: right;
 }
 
